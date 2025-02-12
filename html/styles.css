@@ -1,0 +1,57 @@
+body {
+
+    background-color: white;
+}
+
+
+
+.encadre {
+  font-size: 35px; 
+    color: white;
+    background-color: gray;
+    border:  5px solid  black ;
+    width: 50%;
+    height:50%;
+    padding: 2.5%;
+    margin: 50px;
+    background-image: url(image1.jpg);
+}
+
+
+
+h1 {
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color:white;
+    font-size: 60px ;
+  }
+   
+ .ab {
+      background-image: url(image1.jpg);
+  }
+  .c{
+    color: #000;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  input{
+width: 5cm;
+height:0.6cm;
+
+  }
+
+   
+  
+  
+  
+
+
+
+
