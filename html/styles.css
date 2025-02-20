@@ -5,16 +5,16 @@ body {
 
 
 
-.encadre {
+ .d{                         
   font-size: 35px; 
     color: white;
     background-color: gray;
     border:  5px solid  black ;
-    width: 50%;
+    width: 50%;                         /* pour {chnger .d avec . encadre } */
     height:50%;
     padding: 2.5%;
     margin: 50px;
-    background-image: url(image1.jpg);
+    background-image: url(image1.jpg);   
 }
 
 
@@ -24,11 +24,12 @@ h1 {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    color:white;
+    color:black;
     font-size: 60px ;
   }
    
  .ab {
+      color: white;
       background-image: url(image1.jpg);
   }
   .c{
@@ -46,6 +47,52 @@ width: 5cm;
 height:0.6cm;
 
   }
+
+  @media screen and (max-width: 1200px) {
+    p{
+      color: deeppink;
+    }
+}
+
+@media screen and (max-width:960px) {
+  p{
+
+    overflow: scroll;
+  }
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.new li{
+  display: inline-block;
+  font-size: 10px;
+  padding: 10px 20px;
+  color:white;
+
+}
+.new ul{
+
+  background:black;
+
+}
+
+li:hover {
+
+  background-color: brown;
+  cursor: pointer;
+  border-bottom: 5px solid black;
+}
+
+a{
+  
+  font-size: 14px;
+  padding: 20px 30px;
+
+
+}
 
    
   
